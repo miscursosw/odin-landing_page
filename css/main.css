@@ -1,0 +1,143 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.section-1{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding-left: 48px;
+    padding-right: 48px;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.hero{
+    width: 50%;
+}
+
+.placeholder{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+.header-logo-text{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-header-text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+.sign-button{
+    background-color: #3882F6;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    color: white;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.row-card{
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+}
+
+.card{
+    padding: 18px;
+    width: 150px;
+}
+
+.marco{
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.section-3{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.section-4{
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 48px;
+    gap: 48px;
+    color:white
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.last-button{
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
